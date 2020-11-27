@@ -1,0 +1,19 @@
+{
+    "tab-bg": "#1f2228",
+    "tab-gutter": "#16181d",
+    "tab-active-bg": "#282c34",
+    "tab-active-fg": "#abb2bf",
+    "tab-hover-bg": "#282c34",
+    "tab-font": ["Segoe UI", 10],
+    "bg": "#282c34",
+    "fg": "#abb2bf",
+    "linenum-fg": "#505662",
+    "active-linenum-fg": "#717580",
+    "insert-bg": "#528bff",
+    "insert-fg": "#abb2bf",
+    "insert-w": 2,
+    "select-bg": "#3e4451",
+    "font": ["Fira Code", 14],
+    "relief": "flat",
+    "wrap": "none"
+}
