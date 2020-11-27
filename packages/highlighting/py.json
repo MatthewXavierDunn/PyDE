@@ -1,0 +1,52 @@
+{
+  "tags": {
+    "comment": {
+      "colour": "#828997",
+      "regex": "#.*$"
+    },
+    "fstring": {
+      "colour": "#98c379",
+      "regex": "f\"[^\"\\n]*\""
+    },
+    "mstring": {
+      "colour": "#98c379",
+      "regex": "(?:\"\"\"[^\"]*\"\"\")|(?:'''[^']*''')"
+    },
+    "string": {
+      "colour": "#98c379",
+      "regex": "(?:\"[^\"\\n]*\")|(?:'[^'\\n]*')"
+    },
+    "class": {
+      "colour": "#e5c07b",
+      "regex": "(?<=class )\\w+"
+    },
+    "function": {
+      "colour": "#61afef",
+      "regex": "(?<=def )\\w+"
+    },
+    "subfunction": {
+      "colour": "#61afef",
+      "regex": "\\w+(?=\\(.*\\))"
+    },
+    "decorator": {
+      "colour": "#e5c07b",
+      "regex": "(?<=@)\\w+"
+    },
+    "bracket": {
+      "colour": "#e5c07b",
+      "regex": "[\\[\\]\\(\\)\\{\\}]"
+    },
+    "digit": {
+      "colour": "#d19a66",
+      "regex": "\\d+(?:\\.\\d*)*"
+    },
+    "symbol": {
+      "colour": "#abb2bf",
+      "regex": "\\W"
+    },
+    "keyword": {
+      "colour": "#c678dd",
+      "regex": "\\bint\\b|\\bfloat\\b|\\blist\\b|\\bdict\\b|\\bbool\\b|\\bstr\\b|\\btuple\\b|\\bFalse\\b|\\bawait\\b|\\belse\\b|\\bimport\\b|\\bpass\\b|\\bNone\\b|\\bbreak\\b|\\bexcept\\b|\\bin\\b|\\braise\\b|\\bTrue\\b|\\bclass\\b|\\bfinally\\b|\\bis\\b|\\breturn\\b|\\band\\b|\\bcontinue\\b|\\bfor\\b|\\blambda\\b|\\btry\\b|\\bas\\b|\\bdef\\b|\\bfrom\\b|\\bnonlocal\\b|\\bwhile\\b|\\bassert\\b|\\bdel\\b|\\bglobal\\b|\\bnot\\b|\\bwith\\b|\\basync\\b|\\belif\\b|\\bif\\b|\\bor\\b|\\byield\\b|\\bself\\b"
+    }
+  }
+}
