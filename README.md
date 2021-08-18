@@ -11,7 +11,7 @@ You may wish to add your own flair to the IDE. Good for you, there are some basi
 #### 🎨 Application Styling
 
 Formatting of package files is trivial. Take a look at the default `styling.json` file:
-```
+```json
 {
     "tab-bg": "#1f2228",
     "tab-gutter": "#16181d",
@@ -60,7 +60,7 @@ All options are configurable accordingly:
 
 Less trivial is the customisation of syntax highlighting. However, it is highly configurable and you may wish to write your own custom syntax rule sets. Styling is as follows:
 
-```
+```json
 {
   "tags": {
     "custom-tag-name": {
